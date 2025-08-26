@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Globe } from 'lucide-react';
 
 // Use relative base in dev (Vite proxy), or set VITE_API_BASE_URL in prod.
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api/v1';
+const API_BASE_URL = 'https://medagg.online/api/v1';
 
 const getPageName = () => {
   // Prefer the <title>, else fall back to the last path segment
