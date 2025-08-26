@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // your Express server
+        target: 'https://medagg.online', // your Express server
         changeOrigin: true,
         secure: false,
       },
