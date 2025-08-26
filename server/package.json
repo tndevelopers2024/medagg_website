@@ -1,0 +1,33 @@
+{
+  "name": "medagg-wordpress-api-proxy",
+  "version": "1.0.0",
+  "description": "Express API proxy for WordPress REST API integration with Medagg website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "rest-api",
+    "express",
+    "proxy",
+    "medagg"
+  ],
+  "author": "Medagg Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+import React from 'react';
+import Navbar from '../components/home/Navbar';
+import Treatmentnavbar from '../components/home/Treatmentnavbar';
+import UAE_Herosection from '../components/Treatment Pages/UAE_herosection';
+import WhyChooseUAE from '../components/Treatment Pages/why_choose_UAE';
+import HowUAEWorks from '../components/Treatment Pages/How_UAE_work';
+import WhatHappenUAE from '../components/Treatment Pages/what_happen_UAE';
+import AreYouExperiencingUAE from '../components/Treatment Pages/Are_you_experience_UAE';
+import ThinkYouMightNeedUAE from '../components/Treatment Pages/Think_you_might_need_UAE';
+import UAE_Compare from '../components/Treatment Pages/UAE_Compare';
+import OurDoctor from '../components/home/Ourdoctor';
+import Consultourdoctor from '../components/home/Consultourdoctor';
+
+const UAEPage = () => {
+  return (
+    <>
+      <Navbar />
+      <Treatmentnavbar />
+      <UAE_Herosection />
+      <WhyChooseUAE />
+            <HowUAEWorks />
+            <AreYouExperiencingUAE />
+      <ThinkYouMightNeedUAE />
+      <UAE_Compare />
+            <WhatHappenUAE />
+      <OurDoctor />
+      <Consultourdoctor />
+    </>
+  );
+};
+
+export default UAEPage;
