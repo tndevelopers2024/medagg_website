@@ -12,8 +12,7 @@ import VaricoseVeinPage from './pages/varicosevein';
 import Blog from './pages/Blog';
 import BlogPost from './components/blog/BlogPost';
 import FTE from './pages/FTE';
-import ContactUsPage from './pages/contact_us_page';
-import UAEPage from './pages/uae';
+import UAEPage from './pages/UAE';
 import BreastNoduleVAEPage from './pages/Breast_Nodule_VAE';
 
 
@@ -32,7 +31,7 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/fte' element={<FTE />} />
           <Route path='/blog/:slug' element={<BlogPost />} />
-          <Route path="/contact-us" element={<ContactUsPage />} />
+      
           <Route path="/uae" element={<UAEPage />} />
           <Route path="/breast-nodule-vae" element={<BreastNoduleVAEPage />} />
         </Routes>
